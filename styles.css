@@ -1,0 +1,12 @@
+body {color: aqua;
+background: black;
+margin: 0%;
+}
+header {border-bottom: solid 2px rgb(180, 180, 180);
+    padding: 20px;
+    font-size: 32px;
+}
+img {
+    height: 200px;
+  }
+  
