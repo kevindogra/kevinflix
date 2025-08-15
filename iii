@@ -1,0 +1,31 @@
+<div id="acessibilidade" class="menu-acessibilidade">
+    <button id="botao-acessibilidade" class="btn btn-primary fw-bold
+    rotacao-botao">acessibilidade</button>
+    <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+        <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar
+        o tamanho da fonte">A+</button>
+        <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="Diminuir
+        o tamanho da fonte">A-</button>
+        <button id="alterna-contraste" class="btn btn-primary fw-bold"> <i class="bi
+        bi-shadows"></i></button>
+    </div>
+</div>
+<section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens">
+ScrollReveal().reveal('#inicio', { delay: 500 });
+ScrollReveal().reveal('#tropicalia', { delay: 500 });
+ScrollReveal().reveal('#galeria', { delay: 500 });
+ScrollReveal().reveal('#contato', { delay: 500 });
+# Site acessível sobre Tropicália
+## Sobre
+Refatoração de um site implementando recursos de acessibilidade no HTML, CSS e JS.
+## Recursos de acessibilidade
+- Atributos aria
+- Alt
+- Tab-index
+- Menu de acessibilidade
+## Tecnologias utilizadas
+- Bootstrap
+- ScrollReveal.js
+- HTML
+- CSS
+- JS
